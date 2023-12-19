@@ -1,46 +1,27 @@
-/* -----------------RESET RULE----------------- */
-
 
 
 /* -----------------GENERAL RULE----------------- */
 
 
-/* -----------------HEADER RULE----------------- */
-
-
-/* -----------------MAIN RULE------------------- */
-
-
-/* -----------------FOOTER RULE----------------- */
-
-
-
-
-/* -----------------MEDIA QUERY----------------- */
-/* IN MOBILE FIRST */
-
-@media screen and (max-width: 576px) {
-
-}
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 992px) {
-
+.img_container{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
 }
 
-/* IN DEKSTOP FIRST */
-@media screen and (min-width: 992px) {
-
-}
-@media screen and (min-width: 768px) {
-
-}
-@media screen and (min-width: 576px) {
-
+img{
+    width: 100%;
+    height: 400px;
 }
 
-/* -----------------DEBUG----------------- */
-.debug .container {
-    border: 1px dashed red;
+.info_img{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: white;
+}
+
+.active{
+    display: block;
 }
